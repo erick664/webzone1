@@ -120,9 +120,9 @@
                     return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
             },
             easeInBounce: function (x, t, b, c, d) {
-                    return c - $.easing.easeOutBounce (x, d-t, 0, c, d) + b;
+                    return c - $.easing.easeOutQuart (x, d-t, 0, c, d) + b;
             },
-            easeOutBounce: function (x, t, b, c, d) {
+            easeOutQuart: function (x, t, b, c, d) {
                     if ((t/=d) < (1/2.75)) {
                             return c*(7.5625*t*t) + b;
                     } else if (t < (2/2.75)) {
@@ -135,7 +135,7 @@
             },
             easeInOutBounce: function (x, t, b, c, d) {
                     if (t < d/2) return $.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;
-                    return $.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
+                    return $.easing.easeOutQuart (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
             }
     });
     

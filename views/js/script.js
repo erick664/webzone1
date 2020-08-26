@@ -130,7 +130,7 @@ $("nav#botonera ul li a").click(function(e){
 	$(href).animatescroll({
 
 		scrollSpeed:2000,
-		easing:"easeOutBounce"
+		easing:"easeOutQuart"
 
 	});
 
@@ -140,7 +140,7 @@ $.scrollUp({
 
 	scrollText:"",
 	scrollSpeed: 1500,
-	easingType: "easeOutBounce"
+	easingType: "easeOutQuart"
 
 });
 

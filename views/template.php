@@ -77,12 +77,12 @@
 		<!--====  Fin de VIDEOS  ====-->
 
 		<!--=====================================
-			CONTÁCTENOS         
+			CONTÁCTaNOS         
 		======================================-->
 
 		<?php include "modules/contactenos.php"; ?>
 		
-		<!--====  Fin de CONTÁCTENOS ====-->
+		<!--====  Fin de CONTACTANOS ====-->
 
 		<!--=====================================
 			ARTÍCULO MODAL         
